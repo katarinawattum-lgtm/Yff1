@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
 body, html {
@@ -39,12 +38,8 @@ body, html {
     text-decoration: none;
     font-size: 18px;
     border-radius: 4px;
-}
-
-.header-right a:hover {
-    background-color: #ddd;
-}
-
+    }
+    
 .header-right a.active {
     background-color: #2f4f3a;
     color: white;
@@ -96,7 +91,7 @@ body, html {
 .om-oss-hogre img {
     width: 100%;
     max-width: 500px;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     border-radius: 10px;
 }
